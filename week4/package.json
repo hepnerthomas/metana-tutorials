@@ -1,13 +1,15 @@
 {
   "name": "hardhat-project",
   "scripts": {
-    "lint": "eslint --ext .ts,.tsx"
+    "lint": "eslint --ext .ts,.tsx",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\""
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.58.0",
     "eslint": "^8.38.0",
-    "hardhat": "^2.13.1"
+    "hardhat": "^2.13.1",
+    "prettier": "^2.8.7"
   }
 }
